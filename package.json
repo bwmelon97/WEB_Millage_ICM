@@ -9,7 +9,7 @@
         "millage-client"
     ],
     "scripts": {
-      "start": "yarn workspace millage-server start && yarn workspace millage-client start",
+      "start": "yarn workspace millage-server start",
       "server-start": "yarn workspace millage-server start",
       "server-start:watch": "yarn workspace millage-server start:watch",
       "client-start": "yarn workspace millage-client start",

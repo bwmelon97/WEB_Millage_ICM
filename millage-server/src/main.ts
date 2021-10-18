@@ -72,7 +72,7 @@ async function bootstrap() {
   };
 
   app.use(errorHandler);
-  const port = process.env.NODE_ENV == 'production' ? 3000 : 4000;
+  const port = process.env.PORT || 3000;
   await app.listen(port, async () => {
     console.log(`Server running on http://localhost:${port}`);
   });
